@@ -5,6 +5,9 @@ This repository contains samples demonstrating the Ballerina WebSub implementati
 [WebSub Subscriber Service Sample](websub_subscriber.bal) demonstrates a WebSub subscriber service which defines both 
 the allowed resources - onVerifyIntent and onNotification.
 
+[SSL enabled WebSub Subscriber Service Sample](ssl_enabled_websub_subscriber.bal) demonstrates an SSL enabled WebSub 
+subscriber service (HTTPS).
+
 [WebSub Publisher Sample](websub_publisher.bal) demonstrates a publisher bringing up a Ballerina Hub and publishing 
 against it directly and also considering it a remote Ballerina WebSub Hub.
 

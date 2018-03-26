@@ -3,7 +3,7 @@ import ballerina/net.http;
 import ballerina/net.websub;
 
 endpoint websub:HubClientEndpoint websubHubClientEP {
-   uri: "http://localhost:9999/websub/hub"
+   uri: "https://localhost:9999/websub/hub"
 };
 
 function main (string [] args) {
